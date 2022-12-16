@@ -1,6 +1,11 @@
 .herosection{
   /* height: 100vh; */
-  padding-top: 10vh;
+  padding-top: 3rem;
+}
+@media screen and(max-width:450) {
+  .herosection{
+    padding-top: 1.5rem;
+  }
 }
 .soundhero{
   position: fixed;
@@ -9,6 +14,7 @@
   color: yellow;
   /* padding-right: 12px; */
   margin-right: 20px;
+  z-index: 2000;
 }
 .contactlinkscon{
   margin: auto;
