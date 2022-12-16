@@ -1,0 +1,124 @@
+.aboutsection{
+  background-color: rgb(128,128,128,0.5);
+  background: transparent;
+
+  /* background: rgb(0,0,0 , 0.3) url(../bg.jpg) no-repeat center;
+  background-size: auto;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover; */
+  padding: 20px;
+  /* height: 80vh; */
+  /* background: 
+  linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, black 25%, transparent 25%),
+  linear-gradient(45deg, black 25%, transparent 25%);	
+  background-size: 2em 2em;
+  background-color: #232323; */
+}
+.heroimage{
+  height: 2rem;
+}
+.container {
+  /* position: relative; */
+  /* height: 60vh; */
+  padding: 35px;
+  /* width: 70vw; */
+  /* display: grid;
+  grid-template-columns: 300px 600px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 -15px 20px rgba(200, 188, 188, 0.356);
+}
+.container img {
+  /* width: 150px; */
+  height: 14rem;
+  border-radius: 12px;
+  margin: 0px 5px 0px 5px;
+}
+.about_me{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  margin: 2vh;
+  font-weight: bolder;
+  font-family: "poppins-semibold", serif;
+}
+.container .btn {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  background-color: #fc9400;
+  color: #fff;
+  padding: 22px 45px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.294);
+}
+.container .btn i {
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+
+.container__text {
+  padding: 40px 40px 0;
+  width: 60%;
+}
+.container__text h1 {
+  color: #9a8fbe;
+  font-weight: 400;
+}
+.container__text .container__text__star span {
+  font-size: 0.8rem;
+  color: #ffa800;
+  margin: -5px 0 20px;
+}
+.container__text p {
+  color: white;
+  font-size: 1rem;
+  margin: 4px;
+  word-wrap: break-word;
+
+}
+.text_about{
+  padding: 4px;
+  font-family: "poppins-semibold", serif;
+}
+.container__text .container__text__timing {
+  display: flex;
+  margin: 20px 0 10px;
+}
+.container__text .container__text__timing .container__text__timing_time {
+  margin-right: 40px;
+}
+.container__text .container__text__timing h2 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #818189;
+}
+.container__text .container__text__timing p {
+  color: #351897;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width:540px){
+  .container{
+    flex-direction: column;
+  }
+  .container__text{
+    width: 100%;
+  }
+}
