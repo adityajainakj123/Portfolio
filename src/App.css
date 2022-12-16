@@ -3,9 +3,7 @@
   padding-top: 3rem;
 }
 
-.herohead{
-  font-size: 1.5rem;
-}
+
 @media screen and(max-width:450) {
   .herosection{
     padding-top: 1.5rem;
@@ -46,8 +44,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  left: 2px;
-  text-shadow: -2px 0 #ff00c1;
+  left: 1px;
+  text-shadow: -1px 0 #ff00c1;
   clip: rect(44px, 450px, 56px, 0);
   animation: glitch-anim 5s infinite linear alternate-reverse;
 }
@@ -58,8 +56,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  left: -2px;
-  text-shadow: -2px 0 #ff00c1, 2px 2px #ff00c1;
+  left: -1px;
+  text-shadow: -1px 0 #ff00c1, 2px 2px #ff00c1;
   clip: rect(44px, 450px, 56px, 0);
   animation: glitch-anim2 5s infinite linear alternate-reverse;
 }
