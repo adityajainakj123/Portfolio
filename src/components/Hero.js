@@ -41,7 +41,7 @@ function Hero() {
                         &nbsp; </span>
                     <div className="flex flex-col text-white mt-5">
                         <h1 className="text-4xl tracking-wider font-semibold">
-                            <span>Hey I A'm </span>  <span className='glitch' data-text="Aditya">Aditya</span> <span className='glitch' data-text="Kumar">Kumar</span> <span className='glitch'data-text="Jain">Jain</span></h1>
+                            <span>Hey I'm</span> <span className='glitch' data-text="Aditya">Aditya</span> <span className='glitch' data-text="Kumar">Kumar</span> <span className='glitch'data-text="Jain">Jain</span></h1>
                         
                         <p className="text-xl mt-4 md:mt-4 tracking-wide">Full Stack Web-Developer | UI-UX Designer | Coder</p>
                     </div>
