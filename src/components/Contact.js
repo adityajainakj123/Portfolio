@@ -1,7 +1,5 @@
 import React , {useState} from 'react'
 import concss from './css_folder/contactcss.css'
-import alertcss from './css_folder/alert.css'
-const baseurl = 'http://localhost:5000/contact' ;
 function Contact() {
     const [name , setName] = useState('') ;
     const [email , setEmail] = useState('') ;
@@ -10,11 +8,7 @@ function Contact() {
     const [showAlert, setShowAlert] = useState(false);
     const handlesubmit = async (e) =>{
       e.preventDefault();
-      const object = {
-        "name":name,
-        "email":email,
-        "message":message
-      }
+      
     //   await fetch(baseurl , {
     //     method:'POST',
     //     headers:{
@@ -92,8 +86,7 @@ function Contact() {
 
 
 <div className="contact-wrapper">
-
-  <form id="contact-form" className="form-horizontal" role="form" onSubmit={handlesubmit}>
+  <form id="contact-form" className="form-horizontal" onSubmit={handlesubmit}>
 
     <div className="form-group">
       <div className="col-sm-12">
